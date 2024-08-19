@@ -84,7 +84,7 @@ export const featuresToTempoVersion = {
 
 // The version that we use as default in case we cannot retrieve it from the backend.
 // This is the last minor version of Tempo that does not expose the endpoint for build information.
-const defaultTempoVersion = '2.1.0';
+const defaultTempoVersion = '2.4.2';
 
 interface ServiceMapQueryResponse {
   nodes: DataFrame;
